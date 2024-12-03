@@ -1,0 +1,157 @@
+
+header {
+    display: block;
+    font-family: Helvetica;
+}
+
+
+body {
+    display: block;
+    background-color: beige;
+    font-family: Helvetica;
+    font-size: 18px;
+    margin: 0px;
+
+}
+nav {
+    background-color: burlywood;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 20px;
+}
+
+menu {
+    display: flex;
+    gap: 50px;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start:40px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+menu li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: helvetica;
+}
+
+#Welcome {
+    color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+#Welcome img {
+    height: 700px;
+    width: 50%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+#Featured {
+    background-color: burlywood;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 200px;
+    
+    
+}
+
+#Featured img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    
+}
+
+
+
+
+#Gallery {
+    background-color: rgb(150, 85, 5);
+    color: beige;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 200px;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #image-carousel {
+    
+    margin: auto;
+  }
+
+
+
+
+
+
+
+#bakery-images { 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+#bakery-images img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+}
+
+.modal {
+    max-width: 100%;
+    width: auto;
+    
+}
+
+.modal img {
+    height: 85vh;
+
+}

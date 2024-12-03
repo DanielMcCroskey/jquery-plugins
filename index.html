@@ -1,17 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Bakery</title>
     <!-- Connect Your CSS File -->
 </head>
 <body>
+    <header>
+        <nav>
+            <span class="logo"> The Bakery </span>
+            <menu id="main-menu">
+                <li> <a href> About Us </a></li>
+                <li> <a href> Featured </a></li>
+                <li> <a href> Gallery </a></li>
+            </menu>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+        <section id="Welcome">
+            <h1> Welcome to Our Bakery</h1>
+            <img src="assets/images/cake1.jpg"> 
+        </section>
+
+        <section id="Featured">
+            <h2 data-aos="fade-up"> Featured</h1>
+
+            <div id="bakery-images" data-aos="fade-up">
+                <a href="#bakery-overlay-1" rel="modal:open">
+                <img src="assets/images/cake1.jpg"></a>
+
+                <a href="#bakery-overlay-2" rel="modal:open">
+                    <img src="assets/images/cake2.jpg"></a>
+            </div>
+
+            <div id="bakery-overlay-1" class="modal">
+                <img src="assets/images/cake1.jpg" alt="Tiramisu">
+                <p>Caption 1</p>
+            </div>
+
+    
+
+            <div id="bakery-overlay-2" class="modal">
+                <img src="assets/images/cake2.jpg" alt="Chocolate Cake">
+                <p>Caption 1</p>
+            </div>
+
+        </section>
+
+
+
+        <section id="Gallery">
+            <h2 data-aos="fade-up"> Gallery</h1>
+                <section id="image-carousel" class="splide" aria-label="Bakery Item Images" data-aos="fade-up">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                              <li class="splide__slide">
+                                  <img src="assets/images/cake1.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                  <img src="assets/images/cake2.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                  <img src="assets/images/cake3.jpg" alt="">
+                              </li>
+                              <li class="splide__slide">
+                                <img src="assets/images/cake4.jpg" alt="">
+                            </li>
+                          </ul>
+                    </div>
+                  </section>
+        </section>
+    </main>
+
+
+<!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+
+
+<!--Splide JS-->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+
+<!--Scroll Animation-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script src="assets/js/script.js"></script>
+
+    
+</body>
+</html>
+
+
 <!-- Add in a <header> element with a nested <nav> -->
 <!-- Add <main> element -->
     <!-- Nested inside <main> add a <section> with the ID welcome -->
     <!-- Nested inside <main> add a <section> with the ID featured -->
     <!-- Nested inside <main> add a <section> with the ID gallery -->
 <!-- Connect your JS File -->
-</body>
-</html>
