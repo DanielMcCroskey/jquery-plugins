@@ -30,6 +30,8 @@ nav {
     padding-block: 20px;
 }
 
+
+
 a:hover {
     color: red;
   }
@@ -117,7 +119,7 @@ img{
 
 #Featured {
     background-color: rgb(27, 27, 27);
-    color: beige;
+    color: whitesmoke;
     justify-content: center;
     align-items: center;
     padding: 50px;
@@ -131,7 +133,15 @@ img{
     height: 200px;
     width: 200px;
     object-fit: cover;
+    padding: 50px;
 }
+
+#Featured h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+    
 
 
 
@@ -259,3 +269,38 @@ img {
     padding-left: 40px;
     padding-right: 120px;
 }
+
+#Shop-page {
+    background-color: whitesmoke;
+}
+
+#Shop-Gallery {
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 50px;
+}
+
+#Shop-Gallery h1 {
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+
+.splide__slide img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+  }
+
+  #image-carousel {
+    margin: auto;
+  }
+
+  .ViewMore a {
+       text-decoration: none;
+       color: whitesmoke;
+       
+  }
