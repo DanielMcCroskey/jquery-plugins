@@ -160,6 +160,11 @@ img{
     font-size: 45px;
 }
 
+.splide__slide a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 .splide__slide img {
     width: 100%;
     height: 90%;
