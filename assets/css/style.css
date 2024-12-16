@@ -76,6 +76,7 @@ menu li a {
 #Welcome h1 {
     text-align: left;
     font-size: 90px;
+    padding-left: 40px;
 
 }
 
@@ -99,7 +100,6 @@ menu li a {
 #Content h1 {
     text-align: left;
     font-size: 90px;
-
 }
 
 h2 {
@@ -143,6 +143,11 @@ img{
     padding: 50px;
     gap: 100px;
     padding-block: 50px;
+}
+
+#Gallery h1 {
+    text-align: left;
+    font-size: 45px;
 }
 
 .splide__slide img {
@@ -192,4 +197,65 @@ img {
 .modal img {
     height: 85vh;
 
+}
+
+.blog-page  {
+    color: whitesmoke;
+    background-color: rgb(24, 24, 24);
+}
+
+
+.shop-page {
+    background-color: whitesmoke;
+}
+
+#Twitch {
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+#Twitch img {
+    height: 600px;
+    width: 900px;
+    object-fit: cover;
+}
+
+#Twitch h1 {
+    text-align: left;
+    font-size: 90px;
+}
+
+#Blog-Intro {
+    color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 100px;
+    padding-block: 100px;
+}
+
+#Blog-Intro img {
+    height: 700px;
+    width: 50%;
+    object-fit: cover;
+}
+
+#Blog-Intro h1 {
+    text-align: left;
+    font-size: 90px;
+    padding-left: 40px;
+    padding-right: 120px;
+}
+
+#Blog-Intro h2 {
+    text-align: left;
+    font-size: 32px;
+    padding-left: 40px;
+    padding-right: 120px;
 }
